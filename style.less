@@ -1,0 +1,153 @@
+// out: "css/styles.css"
+@primary: #000000;
+@secondary: white;
+@icon-spacing: 15px;
+
+d-block w-100 {
+    width: 50%;
+}
+
+
+.btn#second {
+    text-align: center;
+}
+.btn-call {
+    background-color: #EFBF04;   /* Dark background */
+    color: #000000;                 /* White text */
+    border: 2px solid #000000;      /* White outline */
+    border-radius: 50px;         /* Rounded pill shape */
+    transition: all 0.3s ease;
+}
+
+.btn-call:hover {
+    background-color: #fff;
+    color: #1f1f1f;
+    border-color: #1f1f1f;
+}
+
+.btn-call:focus,
+.btn-call:active {
+    background-color: #EFBF04;   
+    color: #000000;    
+    border-color: #000000;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+footer {
+    margin-top:5%;
+    text-align: center;
+}
+
+.more {
+    padding-top: 5%;
+    img {
+        width: 40%;
+        float: left;
+        margin-right: 20px;  
+    }
+
+    h2 {
+        margin-top: 10%;
+        text-align: center;
+        margin-left: 58%;
+        margin-right: 2%;
+        font-size: 120%;
+        
+    }
+
+    p {
+        margin-top: 0;
+        text-align: center;
+        margin-left: 58%;
+        margin-right: 2%;
+        font-size: 110%;
+    }
+
+    .long-btn.second {
+        text-align: center;
+        margin-left: 31%;
+        margin-right: 2%;
+    }
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 10%;
+}
+
+.testi1, .testi2 {
+    width: 45%;
+    padding: 2%;
+    background-color: darken(@primary, 5%);
+    border-radius: 10px;
+}
+
+.testi1 {
+    text-align: left;
+    background-color: #1f1f1f;
+    color: #EFBF04;
+    
+}
+
+.testi2 {
+    text-align: right;
+    color: #EFBF04;
+    background-color: #1f1f1f;
+}
+
+html {
+    background-color: @primary;
+}
+
+body {
+    background-color: @primary;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+}
+
+article {
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.clearfix {
+    padding-top: 5%;
+    text-align: center;
+
+    h2 {
+        font-size: 40px;
+        padding-bottom: 5%;
+        color: #ffcc00;
+
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    img {
+        width: 40%;
+    }
+}
+
+.long-btn.second {
+    display: block;
+    margin: 20px auto;
+}
+
+.clearfix.contact {
+    img {
+        width: 40%;
+    }
+}
+
+footer.contact {
+    padding-top: 2%;
+}

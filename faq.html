@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="logos/logo-png.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merced RS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #333;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="color: white; margin-left: 0%;">Merced</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                    <a class="nav-link" href="faq.html">FAQ</a>
+                </div>
+            </div>
+            <div class="ms-auto d-flex align-items-center">
+                <div class="navbar-nav ms-3" style="margin-right: 5%;">
+                    <i class="bi bi-facebook" style="color: white;"></i>
+                    <i class="bi bi-instagram" style="color: white;"></i>
+                    <i class="bi bi-twitter-x" style="color: white;"></i>
+                </div>
+                <a href="booking.html"><button type="button" class="btn btn-secondary long-btn">Book a Room</button></a>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container py-5">
+        <h1 class="text-center mb-4">Frequently Asked Questions</h1>
+        <p class="text-center mb-5">Here are some of the most common questions we receive. If you need more assistance, feel free to contact us!</p>
+        <div class="mb-4 text-center">
+            <input type="text" id="faqSearch" class="form-control w-50 mx-auto" placeholder="Search FAQs...">
+        </div>
+        
+        <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Booking & Reservations
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        How do I make a reservation?
+                        <p>You can book a room or house directly through our website or by calling us. Simply select your desired property, choose your dates, and complete the booking form.</p>
+                        Can I change or cancel my reservation?
+                        <p>Yes, you can modify or cancel your booking up to 48 hours before your check-in date. Please refer to our cancellation policy for more details.</p>
+                        Do you require a deposit to secure my reservation?
+                        <p>Yes, a small deposit is required to confirm your booking. The remaining balance is due upon check-in.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Property Information
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Are pets allowed on the property?
+                        <p>Some of our properties are pet-friendly! Be sure to check the listing details for each property to confirm its pet policy.</p>
+                        What amenities are included in the rooms/houses?
+                        <p>All properties come with high-speed Wi-Fi, fully equipped kitchens, air conditioning, and comfortable bedding. Some properties offer additional amenities such as pools, hot tubs, and BBQ facilities.</p>
+                        Is parking available?
+                        <p>Yes, all of our properties offer free parking, with designated parking spots for guests.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Payments & Policies
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        What payment methods do you accept?
+                        <p>We accept major credit and debit cards, PayPal, and bank transfers.</p>
+                        Is my payment secure?
+                        <p>Yes, we use SSL encryption to ensure all payments are secure. Your privacy and security are our top priority.</p>
+                        Do you offer refunds for cancellations?
+                        <p>Refunds are available depending on the type of booking and the time of cancellation. Please check our cancellation policy for full details.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Guest Services
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Can I request extra amenities during my stay?
+                        <p>Yes, if you need extra amenities (e.g., towels, pillows, toiletries), just let us know and we will be happy to accommodate your request.</p>
+                        Do you provide cleaning services during the stay?
+                        <p>Our properties are cleaned before your arrival. If you require additional cleaning services during your stay, please inform us in advance.</p>
+                        Is there a minimum stay requirement?
+                        <p>Yes, most of our properties have a minimum stay of 2 nights. However, this may vary depending on the property and season, so be sure to check the listing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Email us: <a href="mailto:MercedRs@gmail.com" class="text-white">MercedRs@gmail.com</a></p>
+            <p>Location: 122 Street, 19839 City</p>
+            <div>
+                <a href="https://facebook.com" class="text-white me-3" target="_blank">Facebook</a>
+                <a href="https://twitter.com" class="text-white me-3" target="_blank">Twitter</a>
+                <a href="https://instagram.com" class="text-white me-3" target="_blank">Instagram</a>
+            </div>
+            <p class="mt-3">© 2025 MercedRs. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
